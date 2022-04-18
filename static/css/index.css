@@ -1,0 +1,34 @@
+body {
+    background-image: url("../images/landing.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+  }
+  .center_div {
+    /* margin: 0; */
+    position: absolute;
+    top: 50%;
+    /* -ms-transform: translateY(-50%); */
+    transform: translateY(60%);
+    /* padding-left: 300px; */
+  }
+  label{
+      color: white;
+  }
+  h2{
+      color: white !important;
+  }
+
+  .container {
+    height: 50vh;
+    position: relative;
+  }
+  form{
+      align-items: center;
+      text-align: center;
+  }
+
+  input{
+      width: 300px;
+  }
